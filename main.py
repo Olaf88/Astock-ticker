@@ -16,10 +16,10 @@ def getprice(ticker):
     tickerurl = "http://hq.sinajs.cn/list="
     if str(ticker).startswith('30') or str(ticker).startswith('00'):
         url = tickerurl + 'sz' + str(ticker)
-    if str(ticker).startswith('6'):
+    elif str(ticker).startswith('6'):
         url = tickerurl + 'sh' + str(ticker)
     else:
-        url = tickerurl + 'sz000063'
+        url = tickerurl + 'sh000001'
     res = requests.get(url).text
     test = res.split(',')
     test[0] = test[0][-4:]
