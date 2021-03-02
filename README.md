@@ -12,7 +12,8 @@ urwid
 
 数据每5秒刷新一次。
 
-![image](https://user-images.githubusercontent.com/9567881/109520975-c1a85280-7ae7-11eb-9a13-d9cbdccc31b4.png)
+![image](https://user-images.githubusercontent.com/9567881/109598670-afb0c900-7b54-11eb-8ab8-8e6775bf5e20.png)
+
 
 
 如果上面对您有用，可以请作者喝杯☕️哦
