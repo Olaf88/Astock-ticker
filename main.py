@@ -92,7 +92,7 @@ def get_update():
         append_text(updates, '{} \t '.format(getprice(t)[3]), tabsize=12)
         append_text(updates, '{} \t '.format(getprice(t)[2]), tabsize=6)
         append_text(updates, '{} \t '.format(round(float(getprice(t)[3])-float(getprice(t)[2]),2)), tabsize=10) 
-        data = round((float(getprice(t)[3]) - float(getprice(t)[2])) / float(getprice(t)[2]),2)
+        data = round((float(getprice(t)[3]) - float(getprice(t)[2])) / float(getprice(t)[2]),2) * 100
         append_text(updates, '{} \t '.format(str(data) + '%'), tabsize=6)
         updates.append('\n')
     
